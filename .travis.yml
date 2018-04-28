@@ -1,2 +1,9 @@
-language: node_js 
+language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: FfIYlSTWTX+AvNIG1v9ea91ZYH7Bf0PntVzXppKkY0xlcoaMV2W9x5oY9TCtC/GokCiE/I3TCXgoaXvcRIK/4wlu+xGZd7dgIopLUdN26r64YT+ijOtAFpSMf0+pQga5dox1t+S3IZwb8r7jQ+jjIbaNc6KCAKroqRcSV3+eI3v9oaoXq6Xy9Rp5yyGbreNrd5CJXFpMQGl1xnpvhHB9H4sQCiePbU+Z112vW0Yu/LUMWixh/LwDN0sYL8Y4lH6nvrUqffAn3bx6zlXAo6fKNmoMbE6ihT482DwVGDidp77iBjIB6lsMRRSKprpKOMiExTcFs3IBjnhTU3Mr/AkfH7pfXYfv8xxHVF3V8ueFvOxoD6ak72Ol6zrABqdNxJ6WypxPlT8H5R2o6MZ+QxzBpLnbmpdt5un1ohIPdAsAVAWFOEyVxSUDy/MvzwB8VKMQj8LhBb9Vlu/iSY3vo+e8TKDJ8kM2j600FdAu1s5Ae5T+rheieW50FmCKgj1/AEsbehlSKoMaOY6bdOWC/HQemchcxkJTRqxlsB61AQAd1eP3SQ0wp4jYnkoArMF7R+3Y6MGh5sw+hjwmMm0d66tnft0iBzpG9HHSQWBSCEOfy8gMV88D+d+20nHz8vH4zImDxHboAJ3JhBWx+pRmk04pvHAfmpH/nIbYJyk8ABiXFAQ=
+  app: aqueous-reef-56941
+  on:
+    repo: daSmith1105/node-shopping-list-integration-tests
